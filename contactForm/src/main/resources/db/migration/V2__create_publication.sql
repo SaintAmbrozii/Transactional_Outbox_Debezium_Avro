@@ -1,0 +1,1 @@
+CREATE PUBLICATION contacts_outbox FOR TABLE contacts;

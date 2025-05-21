@@ -1,0 +1,35 @@
+{
+  "type": "record",
+  "name": "UserDataEvent",
+  "namespace": "contacts_outbox",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "phone",
+      "type": "string"
+    },
+    {
+          "name": "__lsn",
+          "type": [
+            "null",
+            "long"
+          ],
+          "default": null
+        },
+        {
+          "name": "__source_ts_ms",
+          "type": [
+            "null",
+            "long"
+          ],
+          "default": null
+        }
+  ]
+}
