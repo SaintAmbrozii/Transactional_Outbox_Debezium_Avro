@@ -34,12 +34,7 @@ spring:
     listener:
       ack-mode: manual
 
-  kafkaprops:
-    pg-replica: v1.orders_dispatch
-    order-placed-topic: v1.public.orders_outbox
-    replication-factor: 1
-    partitions-count: 3
-    nack-sleep-duration: 100ms
+
 
 
 
